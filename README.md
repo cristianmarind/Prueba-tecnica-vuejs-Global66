@@ -39,7 +39,7 @@ Un sistema esta compuesto básicamente por data y transformaciones a la data, ha
 2.2. Data dinámica: Los diferentes Pokémon y su estado con respecto al usuario (favoritos), inicialmente la app trae el resumen de todos los Pokémon, a medida que el usuario necesita información, el sistema la va adquiriendo, su manipulación se implemento mediante vuex
 
 3. Estilos del sistema
-En sistemas web, la personalización es de vital importancia, y esto suele ser algo cambiante, por lo tanto hay una pequeña libreria css personalizada que permea todo el sistema, otorgando estilos estandarizados de botones, index, colores, variables css, etc
+En sistemas web, la personalización es de vital importancia, y esto suele ser algo cambiante, por lo tanto hay una pequeña libreria css personalizada que permea todo el sistema, otorgando estilos estandarizados de botones, inputs, colores, variables css, etc
 
 4. Comunicación con sistemas externos
 Hay un pequeño modulo de app llamado providerServices, el cual tiene la responsabilidad de la comunicación con los sistemas externos, en este caso es muy simple por la complejidad del sistema, en caso de que el sistema tenga diferentes ambientes (desarrollo, production, test, etc) se debería de emplear archivos .env
