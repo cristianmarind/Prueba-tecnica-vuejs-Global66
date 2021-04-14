@@ -1,0 +1,135 @@
+/*Font family*/
+@font-face {
+  font-family: Lato;
+  src: url("../assets/fontFamily/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: Lato;
+  src: url("../assets/fontFamily/Lato-Bold.ttf");
+  font-weight: bold;
+}
+
+* {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+/*Bootstrap changes*/
+.modal-body{
+  padding: 0 !important;
+}
+
+
+/*Variables css*/
+:root {
+  --custom-primary-color: #F22539;
+  --custom-primary-color-dark: #C00E20;
+  --custom-secondary-color: #BFBFBF;
+  --custom-light-color: #f5f5f5;
+}
+/*Colores personalizados*/
+.custom-bg-primary{
+  background-color: var(--custom-primary-color) !important;
+}
+.custom-text-primary{
+  color: var(--custom-primary-color) !important;
+}
+.custom-border-color-primary{
+  border-color: var(--custom-primary-color) !important;
+}
+
+.custom-bg-primary-dark{
+  background-color: var(--custom-primary-color-dark) !important;
+}
+.custom-text-primary-dark{
+  color: var(--custom-primary-color-dark) !important;
+}
+.custom-border-color-primary-dark{
+  border-color: var(--custom-primary-color-dark) !important;
+}
+
+.custom-bg-secondary{
+  background-color: var(--custom-secondary-color) !important;
+}
+.custom-text-secondary{
+  color: var(--custom-secondary-color) !important;
+}
+.custom-border-color-secondary{
+  border-color: var(--custom-secondary-color) !important;
+}
+
+.custom-bg-light{
+  background-color: var(--custom-light-color) !important;
+}
+.custom-text-light{
+  color: var(--custom-light-color) !important;
+}
+.custom-border-color-light{
+  border-color: var(--custom-light-color) !important;
+}
+
+/*Custom input*/
+.custom-input {
+  display: flex;
+  align-items: center;
+  border: 1px;
+  border-color: var(--custom-secondary-color);
+  border-radius: 0.2em;
+  padding: .5em 1em;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px;
+}
+.custom-input div {
+  width: 2em;
+}
+.custom-input input{
+  outline: none;
+  border: none;
+}
+.custom-input input:focus{
+  outline: none;
+  border: none !important;
+}
+
+/*Custom button*/
+.custom-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 11px 20px;
+  border-radius: 60px;
+  border-color: transparent;
+}
+/* Button primary */
+.custom-btn-primary {
+  background-color: var(--custom-primary-color);
+  color: var(--custom-light-color);
+}
+.custom-btn-primary:active {
+  background-color: var(--custom-primary-color-dark);
+}
+/*Button secundary*/
+.custom-btn-secundary {
+  background-color: var(--custom-secondary-color);
+  color: var(--custom-light-color);
+}
+/*Font size*/
+.font-size-large{
+  font-size: 26px;
+}
+.font-size-x-large{
+  font-size: 36px;
+}
+
+.font-size-normal{
+  font-size: 18px;
+}
+.font-size-x-normal{
+  font-size: 20px;
+}
+.font-size-xx-normal{
+  font-size: 22px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
